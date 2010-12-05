@@ -1,0 +1,51 @@
+.gallery
+{
+  padding: 0px;
+  margin: 80px auto;
+  width: 840px;
+}
+
+.gallery .item
+{
+  float: left;
+  position: relative;
+  width: 240px;
+  height: 135px;
+  margin: 20px;
+}
+
+.gallery .item .outline
+{
+  position: relative;
+}
+
+.gallery .item .outline .preview
+{
+  display: block;
+  width: 240px;
+  height: 135px;
+}
+
+.gallery .item .caption 
+{
+  display: none;
+  padding: 4px 0px;
+}
+
+.gallery .item .caption .name
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 11pt;
+  font-weight: bolder;
+  font-family: helvetica, verdana, sans-serif;
+}
+
+.gallery .item .caption .description
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 9pt;
+  font-weight: normal;
+  font-family: helvetica, verdana, sans-serif;
+}
